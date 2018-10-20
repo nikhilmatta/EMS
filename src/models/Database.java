@@ -8,7 +8,7 @@ public class Database {
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection
                     ("jdbc:mysql://localhost:3306/EMS",
-                            "root","Nikhil-0925");
+                            "root","(Enter Password)");
             return con;
         }
         catch(Exception ex) {
